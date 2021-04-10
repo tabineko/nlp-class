@@ -1,0 +1,6 @@
+nltk
+numpy
+scipy
+pandas
+NLTK-Data
+matplotlib
