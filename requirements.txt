@@ -4,3 +4,4 @@ scipy
 pandas
 NLTK-Data
 matplotlib
+notebook
