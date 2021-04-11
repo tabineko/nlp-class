@@ -5,3 +5,4 @@ pandas
 NLTK-Data
 matplotlib
 notebook
+flake8
