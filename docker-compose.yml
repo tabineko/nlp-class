@@ -1,7 +1,12 @@
 version: "3.8"
 services:
-    env:
-        build: .
-        volumes:
-          - .:/nlp-class
+  nlp-env:
+    container_name: "nlp_env_container"
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    image: tabineko/nlp_env:v1
+    volumes:
+      - .:/home/nlp-class/
+    tty: true
         
