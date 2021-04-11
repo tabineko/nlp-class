@@ -3,8 +3,7 @@ A Docker Environment for nlp class.
 
 ## how to build
 ```
-$ mkdir projectdir
-$ cd projectdir
-$ docker build -t nlp-class
-$ docker run --rm -it nlp-class /bin/bash
+$ docker-compose build
+$ docker-compose run
+run --rm -it nlp-class /bin/bash
 ```

@@ -1,8 +1,7 @@
-nltk
-numpy
-scipy
-pandas
-NLTK-Data
-matplotlib
-notebook
 flake8
+matplotlib
+nltk
+notebook
+numpy
+pandas
+scipy
