@@ -5,6 +5,6 @@ A Docker Environment for nlp class.
 ```
 $ mkdir projectdir
 $ cd projectdir
-$ docker build -t my-python-app .
-$ docker run -it --rm --name my-running-app my-python-app
+$ docker build -t nlp-class
+$ docker run --rm -it nlp-class /bin/bash
 ```
