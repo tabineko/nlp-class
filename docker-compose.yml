@@ -1,12 +1,21 @@
-version: "3.8"
+version: "3"
 services:
   nlp-env:
     container_name: "nlp_env_container"
     build: 
       context: .
       dockerfile: ./Dockerfile
-    image: tabineko/nlp_env:v1
+    image: tabineko/nlp_env:v2
+    ports:
+      - "8888:8888"
     volumes:
       - .:/home/nlp-class/
     tty: true
+    command:
+      jupyter lab 
+          --ip=0.0.0.0
+          --allow-root
+          --no-browser
+          --NotebookApp.notebook_dir='/home/nlp-class'
+          --NotebookApp.token=' '
         

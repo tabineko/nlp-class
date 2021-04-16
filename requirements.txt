@@ -1,7 +1,3 @@
 flake8
-matplotlib
+jupyterlab
 nltk
-notebook
-numpy
-pandas
-scipy

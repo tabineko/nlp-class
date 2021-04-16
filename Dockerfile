@@ -1,4 +1,4 @@
-FROM python:3.9.4
+FROM jupyter/scipy-notebook:latests
 
 RUN apt-get update  && \
     apt-get upgrade -y && \
